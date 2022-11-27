@@ -1,6 +1,35 @@
-# Getting Started with Create React App
+# To do list ✔️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Headline](https://github.com/bartekdbc/to-do-list/blob/master/images/headline.png)
+## Table of content 
+
+- [Demo](#demo-🎮)
+- [Description](#description-📖)
+- [Preview](#preview-👀)
+- [Technologies](#technologies-🤖)
+
+## Demo 🎮
+
+You can find a demo version [here](https://bartekdbc.github.io/to-do-list/).
+
+## Description 📖
+
+I would like to invite you to take a look at my "To do list" application.
+
+"To do list" is a web application which allows you to create a list of tasks that need to be done in the near future. 
+
+There are two types of buttons next to each task:
+- green button allows you to mark the task as completed or not ✅
+- red button with trash icon is used to remove specific task from the board 🗑️.
+
+Moreover, when you type tasks in the list, two additional functionalities appear - you can either hide completed tasks or complete all the tasks listed below.
+
+This project is a part of Frontend Developer Course that I am currently participating in.
+
+## Preview 👀
+
+![Preview](https://github.com/bartekdbc/to-do-list/blob/master/images/Preview.gif)
+
 
 ## Available Scripts
 
@@ -13,11 +42,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -39,32 +63,12 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Technologies 🤖
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- HTML
+- CSS
+- Flex, Grid
+- BEM
+- JavaScript
+- ES6+ features
+- Markdown
