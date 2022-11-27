@@ -10,7 +10,7 @@
 
 ## Demo 🎮
 
-You can find a demo version [here](https://bartekdbc.github.io/to-do-list/).
+You can find a demo version [here](https://bartekdbc.github.io/to-do-list-react/).
 
 ## Description 📖
 
