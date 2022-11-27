@@ -6,6 +6,7 @@
 - [Demo](#demo-🎮)
 - [Description](#description-📖)
 - [Preview](#preview-👀)
+- [Available Scripts](#available-scripts)
 - [Technologies](#technologies-🤖)
 
 ## Demo 🎮
@@ -24,7 +25,7 @@ There are two types of buttons next to each task:
 
 Moreover, when you type tasks in the list, two additional functionalities appear - you can either hide completed tasks or complete all the tasks listed below.
 
-This project is a part of Frontend Developer Course that I am currently participating in.
+This project is a part of Frontend Developer Course that I am currently participating in and was boostrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Preview 👀
 
@@ -66,9 +67,10 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ## Technologies 🤖
 
 - HTML
-- CSS
-- Flex, Grid
+- CSS (Flex, Grid, media queries)
 - BEM
 - JavaScript
 - ES6+ features
+- React
+- Create-react-app
 - Markdown
