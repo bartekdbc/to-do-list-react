@@ -1,6 +1,6 @@
 .tasks {
     width: 100%;
-    tasks-style-type: none;
+    list-style-type: none;
     padding: 20px;
     margin: auto;
 }
@@ -16,8 +16,7 @@
 }
 
 .tasks__item--hidden {
-    height: 0px;
-    visibility: hidden;
+    display: none;
 }
 
 .tasks__item--done {
