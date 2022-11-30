@@ -3,17 +3,17 @@
 ![Headline](https://github.com/bartekdbc/to-do-list/blob/master/images/headline.png)
 ## Table of content 
 
-- [Demo](#🎮-demo)
-- [Description](#📖-description)
-- [Preview](#👀-preview)
+- [Demo](#demo)
+- [Description](#description)
+- [Preview](#preview)
 - [Available Scripts](#available-scripts)
-- [Technologies](#🤖-technologies)
+- [Technologies](#technologies)
 
-## 🎮 Demo 
+## 🎮Demo 
 
 You can find a demo version [here](https://bartekdbc.github.io/to-do-list-react/).
 
-## 📖 Description
+## 📖Description
 
 I would like to invite you to take a look at my "To do list" application.
 
