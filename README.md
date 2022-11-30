@@ -27,7 +27,7 @@ Moreover, when you type tasks in the list, two additional functionalities appear
 
 This project is a part of Frontend Developer Course that I am currently participating in and was boostrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 👀 Preview
+## 👀Preview
 
 ![Preview](https://github.com/bartekdbc/to-do-list/blob/master/images/Preview.gif)
 
@@ -64,7 +64,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## 🤖 Technologies
+## 🤖Technologies
 
 - HTML
 - CSS (Flex, Grid, media queries)
