@@ -20,14 +20,14 @@ const Form = ({ addNewTask }) => {
 
   return (
     <StyledForm onSubmit={onFormSubmit}>
-      <FormField
+      <Input
         ref={inputRef}
         value={newTaskContent}
         autoFocus
         placeholder="Co jest do zrobienia?"
         onChange={({ target }) => setNewTaskContent(target.value)}
       />
-      <FormButton>Dodaj zadanie</FormButton>
+      <Button>Dodaj zadanie</Button>
     </StyledForm>
   );
 };
