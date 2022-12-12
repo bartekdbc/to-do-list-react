@@ -34,23 +34,23 @@ export const Content = styled.span`
 export const Button = styled.button`
   width: 30px;
   height: 30px;
-  color: white;
+  color: ${({ theme }) => theme.color.white};
   cursor: pointer;
   border: none;
-  transition: background 0.3s;
+  transition: filter 0.3s;
 
   ${({ toggleDone }) =>
     toggleDone &&
     css`
-      background: hsl(122, 61%, 34%);
+      background: ${({ theme }) => theme.color.forestGreen};
 
       &:hover {
-        background-color: hsl(122, 61%, 39%);
+        filter: brightness(110%);
       }
 
       &:active {
-        background-color: hsl(122, 61%, 44%);
-        border: 1px solid black;
+        filter: brightness(120%);
+        border: 1px solid ${({ theme }) => theme.color.black};
         border-radius: 3px;
       }
     `}
@@ -58,14 +58,14 @@ export const Button = styled.button`
   ${({ remove }) =>
     remove &&
     css`
-      background-color: red;
+      background-color: ${({ theme }) => theme.color.red};
 
       &:hover {
-        background-color: hsl(0, 100%, 60%);
+        filter: brightness(110%);
       }
 
       &:active: {
-        background-color: hsl(0, 100%, 65%);
+        filter: brightness(120%);
       }
     `}
 `;
