@@ -15,7 +15,7 @@ export const FormField = styled.input`
   padding: 10px;
   color: ${({ theme }) => theme.color.black};
 
-  @media (max-width: ${({theme}) => theme.breakpoint.mobileMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     width: 100%;
     margin-right: 0px;
   }
@@ -35,16 +35,16 @@ export const FormButton = styled.button`
   transition: 0.3s;
 
   &:hover {
-    background-color: ${({ theme }) => theme.color.bondiBlue};
+    filter: brightness(110%);
     transform: scale(1.05);
   }
 
   &:active {
-    background-color: ${({ theme }) => theme.color.blue};
+    filter: brightness(120%);
     outline: 1px solid ${({ theme }) => theme.color.black};
   }
 
-  @media (max-width: ${({theme}) => theme.breakpoint.mobileMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     width: 100%;
   }
 `;
