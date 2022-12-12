@@ -13,7 +13,7 @@ export const Button = styled.button`
   text-align: center;
   max-height: 40px;
   cursor: pointer;
-  transition: color 0.3s;
+  transition: filter 0.3s;
 
   @media (max-width: ${({theme}) => theme.breakpoint.mobileMax}px) {
     flex-basis: 100%;
@@ -21,11 +21,11 @@ export const Button = styled.button`
   }
 
   &:hover {
-    color: ${({ theme }) => theme.color.bondiBlue};
+    filter: brightness(110%);
   }
 
   &:active {
-    color: ${({ theme }) => theme.color.blue};
+    filter: brightness(120%);
   }
 
   &:disabled {
