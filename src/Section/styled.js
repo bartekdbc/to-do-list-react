@@ -14,7 +14,7 @@ export const Header = styled.h2`
   padding: 20px;
   margin: 0;
 
-  @media (max-width: 767px) {
+  @media (max-width: ${({theme}) => theme.breakpoint.mobileMax}px) {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
