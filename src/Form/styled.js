@@ -13,38 +13,38 @@ export const StyledForm = styled.form`
 
 export const FormField = styled.input`
   padding: 10px;
-  color: black;
+  color: ${({ theme }) => theme.color.black};
 
-  @media (max-width: 767px) {
+  @media (max-width: ${({theme}) => theme.breakpoint.mobileMax}px) {
     width: 100%;
     margin-right: 0px;
   }
 
   &:focus {
-    border: 2px solid black;
+    border: 2px solid ${({ theme }) => theme.color.black};
     border-radius: 3px;
   }
 `;
 
 export const FormButton = styled.button`
-  background-color: hsl(187, 100%, 25%);
-  color: #ffffff;
+  background-color: ${({ theme }) => theme.color.teal};
+  color: ${({ theme }) => theme.color.white};
   padding: 10px;
   border: none;
   cursor: pointer;
   transition: 0.3s;
 
   &:hover {
-    background-color: hsl(187, 100%, 30%);
+    background-color: ${({ theme }) => theme.color.bondiBlue};
     transform: scale(1.05);
   }
 
   &:active {
-    background-color: hsl(187, 100%, 35%);
-    outline: 1px solid black;
+    background-color: ${({ theme }) => theme.color.blue};
+    outline: 1px solid ${({ theme }) => theme.color.black};
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: ${({theme}) => theme.breakpoint.mobileMax}px) {
     width: 100%;
   }
 `;
