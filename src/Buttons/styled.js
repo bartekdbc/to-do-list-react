@@ -30,5 +30,6 @@ export const Button = styled.button`
 
   &:disabled {
     color: hsl(0, 4%, 65%);
+    cursor: not-allowed;
   }
 `;
