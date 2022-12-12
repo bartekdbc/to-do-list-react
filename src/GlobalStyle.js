@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-color: ${({ theme }) => theme.color.white};
+  background-color: ${({ theme }) => theme.color.gallery};
   font-family: 'Montserrat', sans-serif;
 }
 `;
