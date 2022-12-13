@@ -38,34 +38,30 @@ export const Button = styled.button`
   cursor: pointer;
   border: none;
   transition: filter 0.3s;
+`;
 
-  ${({ toggleDone }) =>
-    toggleDone &&
-    css`
-      background: ${({ theme }) => theme.color.forestGreen};
+export const DoneButton = styled(Button)`
+  background: ${({ theme }) => theme.color.forestGreen};
 
-      &:hover {
-        filter: brightness(110%);
-      }
+  &:hover {
+    filter: brightness(110%);
+  }
 
-      &:active {
-        filter: brightness(120%);
-        border: 1px solid ${({ theme }) => theme.color.black};
-        border-radius: 3px;
-      }
-    `}
+  &:active {
+    filter: brightness(120%);
+    border: 1px solid ${({ theme }) => theme.color.black};
+    border-radius: 3px;
+  }
+`;
 
-  ${({ remove }) =>
-    remove &&
-    css`
-      background-color: ${({ theme }) => theme.color.red};
+export const RemoveButton = styled(Button)`
+  background-color: ${({ theme }) => theme.color.red};
 
-      &:hover {
-        filter: brightness(110%);
-      }
+  &:hover {
+    filter: brightness(110%);
+  }
 
-      &:active: {
-        filter: brightness(120%);
-      }
-    `}
+  &:active: {
+    filter: brightness(120%);
+  }
 `;
