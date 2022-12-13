@@ -61,7 +61,7 @@ export const RemoveButton = styled(Button)`
     filter: brightness(110%);
   }
 
-  &:active: {
+  &:active {
     filter: brightness(120%);
   }
 `;
