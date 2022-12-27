@@ -68,11 +68,11 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 - HTML
 - CSS (Flex, Grid, media queries)
-- BEM
-- JavaScript
-- ES6+ features
+- JavaScript (ES6+ features)
 - React
 - Create-react-app
-- React Hooks (incl. Custom Hooks)
 - Styled components
+- ThemeProvider
+- Redux / Toolkit
+- React Hooks (incl. Custom Hooks)
 - Markdown
