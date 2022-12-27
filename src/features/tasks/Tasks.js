@@ -14,7 +14,6 @@ function Tasks() {
 
   const {
     // tasks,
-    setAllDone,
   } = useTasks();
 
   return (
@@ -31,9 +30,7 @@ function Tasks() {
           <TaskList />
         }
         extraContent={
-          <Buttons
-            setAllDone={setAllDone}
-          />
+          <Buttons />
         }
       />
     </Container>
