@@ -14,7 +14,6 @@ function Tasks() {
 
   const {
     // tasks,
-    removeTask,
     setAllDone,
   } = useTasks();
 
@@ -29,9 +28,7 @@ function Tasks() {
       <Section
         title="Lista zadań"
         body={
-          <TaskList
-            removeTask={removeTask}
-          />
+          <TaskList />
         }
         extraContent={
           <Buttons
