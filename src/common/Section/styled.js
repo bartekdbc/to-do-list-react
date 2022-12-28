@@ -9,7 +9,6 @@ export const StyledSection = styled.section`
 export const Header = styled.h2`
   display: grid;
   grid-template-columns: 1fr auto auto;
-  grid-gap: 10px;
   border-bottom: 2px solid ${({ theme }) => theme.color.gallery};
   padding: 20px;
   margin: 0;
