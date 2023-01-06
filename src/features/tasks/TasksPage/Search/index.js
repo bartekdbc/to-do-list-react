@@ -3,7 +3,7 @@ import Input from "../Input";
 import searchQueryParamName from "../searchQueryParamName";
 import { Wrapper } from "./styled";
 
-export default () => {
+const Search = () => {
   const location = useLocation();
   const history = useHistory();
   const query = new URLSearchParams(location.search).get(searchQueryParamName);
@@ -30,3 +30,5 @@ export default () => {
     </Wrapper>
   );
 };
+
+export default Search;
