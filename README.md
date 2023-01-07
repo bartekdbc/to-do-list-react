@@ -1,7 +1,8 @@
 # To do list ✔️
 
 ![Headline](https://github.com/bartekdbc/to-do-list/blob/master/images/headline.png)
-## Table of content 
+
+## Table of content
 
 - [Demo](#demo)
 - [Description](#description)
@@ -9,7 +10,7 @@
 - [Available Scripts](#available-scripts)
 - [Technologies](#technologies)
 
-## 🎮Demo 
+## 🎮Demo
 
 You can find a demo version [here](https://bartekdbc.github.io/to-do-list-react/).
 
@@ -17,9 +18,26 @@ You can find a demo version [here](https://bartekdbc.github.io/to-do-list-react/
 
 I would like to invite you to take a look at my "To do list" application.
 
-"To do list" is a web application which allows you to create a list of tasks that need to be done in the near future. 
+"To do list" is a web application which allows you to create a list of tasks that need to be done in the near future.
+
+At the top of application you can see a navigation toolbar which can take you to tasks page or to an author page.
+
+The author page includes just basic info about myself, while the tasks page offers more complex interactions. The main three parts are as follows:
+
+**1️⃣ Tasks adding block**
+
+In this block you can add as many tasks as you want or download example tasks by clicking "Pobierz przykładowe zadania" button. Tasks will be listed below - in the "Tasks list block". 🖊️
+
+**2️⃣ Search bar block**
+
+This specific block enables you to filter tasks. 🔍
+
+**3️⃣ Tasks list block**
+
+Within this block all the tasks are generated. You can go to the subpage of each task by clicking on its content. 🗒️
 
 There are two types of buttons next to each task:
+
 - green button allows you to mark the task as completed or not ✅
 - red button with trash icon is used to remove specific task from the board 🗑️.
 
@@ -30,7 +48,6 @@ This project is a part of Frontend Developer Course that I am currently particip
 ## 👀Preview
 
 ![Preview](https://github.com/bartekdbc/to-do-list/blob/master/images/Preview.gif)
-
 
 ## Available Scripts
 
@@ -71,8 +88,12 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 - JavaScript (ES6+ features)
 - React
 - Create-react-app
-- Styled components
+- Styled-components
 - ThemeProvider
 - Redux / Toolkit
+- Redux-Saga
+- React Router
 - React Hooks (incl. Custom Hooks)
+- Promises, async/await
+- Local storage
 - Markdown
