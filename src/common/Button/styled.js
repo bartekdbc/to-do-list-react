@@ -4,7 +4,7 @@ export const Button = styled.button`
   background: transparent;
   color: ${({ theme }) => theme.color.teal};
   border: none;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   max-height: 40px;
   cursor: pointer;
@@ -21,5 +21,10 @@ export const Button = styled.button`
 
   &:active {
     filter: brightness(120%);
+  }
+
+  &:disabled {
+    color: ${({ theme }) => theme.color.silver};
+    cursor: not-allowed;
   }
 `;
