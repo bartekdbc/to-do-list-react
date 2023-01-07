@@ -1,12 +1,12 @@
 [
   {
-    "content": "Oznaczyć to zadanie jako ukończone",
+    "content": "Ukończyć kurs YouCode",
     "done": false,
     "id": "Wsd75NkXPpdmFe5GVpJGg"
   },
   {
-    "content": "Ukończyć wszystkie zadania",
-    "done": false,
+    "content": "Wykonać pracę domową z modułu 14",
+    "done": true,
     "id": "qHuR7vyjvpzeb3JKlgBpo"
   }
 ]
