@@ -12,11 +12,13 @@ export const Header = styled.h2`
   border-bottom: 2px solid ${({ theme }) => theme.color.gallery};
   padding: 20px;
   margin: 0;
+  font-size: 20px;
 
-  @media (max-width: ${({theme}) => theme.breakpoint.mobileMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    align-items: center;
   }
 `;
 
