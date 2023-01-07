@@ -47,6 +47,7 @@ export const Button = styled.button`
   height: 30px;
   color: ${({ theme }) => theme.color.white};
   cursor: pointer;
+  padding: 0;
   border: none;
   transition: filter 0.3s;
 `;
