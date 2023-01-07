@@ -11,8 +11,11 @@ function TasksPage() {
   return (
     <Container>
       <Header title="Lista zadań" />
-      <Section title="Dodaj nowe zadanie" body={<Form />} 
-      extraContent={<ExampleTasks />} />
+      <Section
+        title="Dodaj nowe zadanie"
+        body={<Form />}
+        extraContent={<ExampleTasks />}
+      />
 
       <Section title="Wyszukiwarka" body={<Search />} />
 
