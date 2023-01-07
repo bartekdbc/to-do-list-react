@@ -10,8 +10,13 @@ export const Ul = styled.ul`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 16px 0px;
+  padding: 14px 0px;
   margin: 0;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const Li = styled.li`
