@@ -17,7 +17,7 @@ function AuthorPage() {
               mieszkam na co dzień w Warszawie.
             </Paragraph>
             <Paragraph>
-              Obecnie pracuję jako analityk finansowy w obszarze rachunkowości
+              Obecnie pracuję jako kontroler finansowy w obszarze rachunkowości
               zarządczej.💸
             </Paragraph>
             <Paragraph>
