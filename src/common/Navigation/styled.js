@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 export const Nav = styled.nav`
@@ -15,4 +16,20 @@ export const Ul = styled.ul`
 
 export const Li = styled.li`
   padding: 10px 20px;
+  font-size: 18px;
+`;
+
+export const StyledNavLink = styled(NavLink).attrs(() => ({
+  activeClassName: "active",
+}))`
+  text-decoration: none;
+  color: ${({ theme }) => theme.color.white};
+
+  &.active {
+    font-weight: 700;
+  }
+
+  &:hover {
+    border-bottom: 1px solid;
+  }
 `;

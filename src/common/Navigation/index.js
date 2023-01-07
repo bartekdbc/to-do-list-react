@@ -1,15 +1,14 @@
-import { Link } from "react-router-dom";
-import { Nav, Ul, Li } from "./styled";
+import { Nav, Ul, Li, StyledNavLink } from "./styled";
 
 const Navigation = () => {
   return (
     <Nav>
       <Ul>
         <Li>
-          <Link to="/zadania">Zadania</Link>
+          <StyledNavLink to="/zadania">Zadania</StyledNavLink>
         </Li>
         <Li>
-          <Link to="/autor">O autorze</Link>
+          <StyledNavLink to="/autor">O autorze</StyledNavLink>
         </Li>
       </Ul>
     </Nav>
