@@ -24,15 +24,15 @@ At the top of application you can see a navigation toolbar which can take you to
 
 The author page includes just basic info about myself, while the tasks page offers more complex interactions. The main three parts are as follows:
 
-**1️⃣ Tasks adding block**
+**1️⃣ `Tasks adding block`**
 
 In this block you can add as many tasks as you want or download example tasks by clicking "Pobierz przykładowe zadania" button. Tasks will be listed below - in the "Tasks list block". 🖊️
 
-**2️⃣ Search bar block**
+**2️⃣ `Search bar block`**
 
 This specific block enables you to filter tasks. 🔍
 
-**3️⃣ Tasks list block**
+**3️⃣ `Tasks list block`**
 
 Within this block all the tasks are generated. You can go to the subpage of each task by clicking on its content. 🗒️
 
