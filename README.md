@@ -16,13 +16,13 @@ You can find a demo version [here](https://bartekdbc.github.io/to-do-list-react/
 
 ## 📖Description
 
-I would like to invite you to take a look at my "To do list" application.
+I would like to invite you to take a look at my **"To do list"** application.
 
-"To do list" is a web application which allows you to create a list of tasks that need to be done in the near future.
+**"To do list"** is a web application which allows you to create a list of tasks that need to be done in the near future.
 
 At the top of application you can see a navigation toolbar which can take you to tasks page or to an author page.
 
-The author page includes just basic info about myself, while the tasks page offers more complex interactions. The main three parts are as follows:
+The **author page** includes just basic info about myself, while the **tasks page** offers more complex interactions. The main three parts are as follows:
 
 **1️⃣ `Tasks adding block`**
 
