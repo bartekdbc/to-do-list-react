@@ -26,7 +26,7 @@ The **author page** includes just basic info about myself, while the **tasks pag
 
 **1️⃣ `Tasks adding block`**
 
-In this block you can add as many tasks as you want or download example tasks by clicking "Pobierz przykładowe zadania" button. Tasks will be listed below - in the "Tasks list block". 🖊️
+In this block you can add as many tasks as you want or download example tasks by clicking "Get example tasks" button. Tasks will be listed below - in the "Tasks list block". 🖊️
 
 **2️⃣ `Search bar block`**
 
