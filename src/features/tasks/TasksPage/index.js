@@ -10,17 +10,17 @@ import ExampleTasks from "./ExampleTasks";
 function TasksPage() {
   return (
     <Container>
-      <Header title="Lista zadań" />
+      <Header title="To do list" />
       <Section
-        title="Dodaj nowe zadanie"
+        title="Add new task"
         body={<Form />}
         extraContent={<ExampleTasks />}
       />
 
-      <Section title="Wyszukiwarka" body={<Search />} />
+      <Section title="Search" body={<Search />} />
 
       <Section
-        title="Lista zadań"
+        title="To do list"
         body={<TaskList />}
         extraContent={<Buttons />}
       />

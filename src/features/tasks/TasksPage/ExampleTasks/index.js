@@ -8,7 +8,7 @@ const ExampleTasks = () => {
 
   return (
     <Button onClick={() => dispatch(fetchExampleTasks())} disabled={isLoading}>
-      {isLoading ? "Ładowanie..." : "Pobierz przykładowe zadania"}
+      {isLoading ? "Loading..." : "Get example tasks"}
     </Button>
   );
 };

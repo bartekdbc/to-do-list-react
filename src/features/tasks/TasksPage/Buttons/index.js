@@ -20,13 +20,13 @@ const Buttons = () => {
       {!areTasksEmpty && (
         <>
           <StyledButton onClick={() => dispatch(toggleHideDone())}>
-            {hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
+            {hideDoneTasks ? "Show" : "Hide"} done
           </StyledButton>
           <StyledButton
             onClick={() => dispatch(setAllDone())}
             disabled={allTasksDone}
           >
-            Ukończ wszystkie
+            Complete all
           </StyledButton>
         </>
       )}

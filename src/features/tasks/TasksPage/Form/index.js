@@ -38,10 +38,10 @@ const Form = () => {
         ref={inputRef}
         value={newTaskContent}
         autoFocus
-        placeholder="Co jest do zrobienia?"
+        placeholder="What are you going to do?"
         onChange={({ target }) => setNewTaskContent(target.value)}
       />
-      <Button>Dodaj zadanie</Button>
+      <Button>Add task</Button>
     </StyledForm>
   );
 };

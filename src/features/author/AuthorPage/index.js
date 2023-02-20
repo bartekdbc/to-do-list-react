@@ -6,30 +6,26 @@ import { Paragraph, Wrapper } from "./styled";
 function AuthorPage() {
   return (
     <Container>
-      <Header title="O autorze" />
+      <Header title="About author" />
       <Section
-        title="Bartłomiej Dębiec"
+        title="Bartlomiej Debiec"
         body={
           <Wrapper>
-            <Paragraph>Cześć!👋 </Paragraph>
+            <Paragraph>Hi there!👋 </Paragraph>
             <Paragraph>
-              Jestem <b>Bartek</b>, pochodzę z Tomaszowa Mazowieckiego, lecz
-              mieszkam na co dzień w Warszawie.
+              I am <b>Bartlomiej</b>, I come from Poland, but I live in Sydney
+              on a daily basis.
             </Paragraph>
             <Paragraph>
-              Obecnie pracuję jako kontroler finansowy w obszarze rachunkowości
-              zarządczej.💸
+              In private life, I value peace and <b>worthwhile</b>{" "}
+              relationships, which is why I spend most of the free time with my
+              beloved ones. We love to <b>travel</b> together, discover new
+              places on the map and try local cuisines.🗺️
             </Paragraph>
             <Paragraph>
-              W życiu prywatnym cenię sobie spokój i <b>wartościowe</b> relacje
-              międzyludzkie, dlatego większość wolnego czasu spędzam z
-              najbliższymi. Uwielbiamy wspólnie <b>podróżować</b>, odkrywać nowe
-              miejsca na mapie oraz próbować lokalnych przysmaków.🗺️
-            </Paragraph>
-            <Paragraph>
-              Od kilku miesięcy jestem w trakcie intensywnej nauki
-              programowania, a aplikacja, którą właśnie przeglądasz jest efektem
-              mojej pracy w ramach kursu dla <b>Frontend Developerów</b>.😊
+              I have been learning programming intensively for almost a year
+              now, and the application you are viewing is the result of my work
+              as part of a course for <b>Frontend Developers</b>.😊
             </Paragraph>
           </Wrapper>
         }
