@@ -1,12 +1,17 @@
 [
   {
-    "content": "Ukończyć kurs YouCode",
+    "content": "See task details by clicking on its content",
     "done": false,
     "id": "Wsd75NkXPpdmFe5GVpJGg"
   },
   {
-    "content": "Wykonać pracę domową z modułu 14",
-    "done": true,
+    "content": "Mark task as completed by clicking the green button",
+    "done": false,
     "id": "qHuR7vyjvpzeb3JKlgBpo"
+  },
+  {
+    "content": "Remove task from the board by clicking the red button",
+    "done": false,
+    "id": "xOs5KGHRWBNjUw9rzyK5O"
   }
 ]
