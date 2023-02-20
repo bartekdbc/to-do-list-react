@@ -47,7 +47,7 @@ This project is a part of Frontend Developer Course that I am currently particip
 
 ## 👀Preview
 
-![Preview](https://github.com/bartekdbc/to-do-list-react/blob/main/Preview.gif)
+![Preview](/Preview.gif)
 
 ## Available Scripts
 
